@@ -1,0 +1,86 @@
+body {
+ 
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  background: #EDF1D6;
+}
+#movieSearchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+#movie {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+
+}
+
+#rating {
+  padding: 10px;
+  width: 20vh;
+  border: 1px solid #ccc;
+  border-radius: 0 5px 5px 0;
+}
+
+#searchButton {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.bttn {
+  margin-top: 5px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.bttn:hover {
+  background-color: #3bb441;
+}
+
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list li strong {
+  margin-right: 10px;
+}
+
+#btn {
+  padding-top: 10px;
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#btn:hover {
+  background-color: #e53e3e;
+}
